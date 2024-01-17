@@ -1,0 +1,82 @@
+2024-01-17 16:50:46,594 - INFO - shivu.modules - Modules to load: ['broadcast', 'changetime', 'dev_cmd', 'eval', 'harem', 'inlinequery', 'leaderboard', 'ping', 'start', 'trade', 'upload']
+2024-01-17 16:51:39,183 - INFO - shivu.modules - Modules to load: ['broadcast', 'changetime', 'dev_cmd', 'eval', 'harem', 'inlinequery', 'leaderboard', 'ping', 'start', 'trade', 'upload']
+2024-01-17 16:51:42,289 - INFO - pyrogram.session.auth - Start creating a new auth key on DC2
+2024-01-17 16:51:42,289 - INFO - pyrogram.connection.connection - Connecting...
+2024-01-17 16:51:42,399 - INFO - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+2024-01-17 16:51:44,230 - INFO - pyrogram.session.auth - Done auth key exchange: DhGenOk
+2024-01-17 16:51:44,249 - INFO - pyrogram.connection.connection - Disconnected
+2024-01-17 16:51:44,493 - INFO - pyrogram.connection.connection - Connecting...
+2024-01-17 16:51:44,590 - INFO - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+2024-01-17 16:51:44,592 - INFO - pyrogram.session.session - NetworkTask started
+2024-01-17 16:51:45,148 - INFO - pyrogram.session.session - Session initialized: Layer 158
+2024-01-17 16:51:45,149 - INFO - pyrogram.session.session - Device: CPython 3.12.0 - Pyrogram 2.0.106
+2024-01-17 16:51:45,150 - INFO - pyrogram.session.session - System: Windows 10 (en)
+2024-01-17 16:51:45,150 - INFO - pyrogram.session.session - Session started
+2024-01-17 16:51:45,174 - INFO - pyrogram.session.session - PingTask started
+2024-01-17 16:51:46,264 - INFO - pyrogram.dispatcher - Started 8 HandlerTasks
+2024-01-17 16:51:46,265 - INFO - shivu - Bot started
+2024-01-17 16:51:49,445 - INFO - telegram.ext.Application - Application started
+2024-01-17 16:53:30,353 - ERROR - telegram.ext.Application - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_application.py", line 1079, in __create_task_callback
+    return await coroutine  # type: ignore
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_basehandler.py", line 153, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SHOHJAHON\ola\WAIFU-HUSBANDO-CATCHER-main\shivu\modules\leaderboard.py", line 123, in send_users_document
+    f.write(user_list)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>
+2024-01-17 16:58:16,417 - ERROR - telegram.ext.Application - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_application.py", line 1079, in __create_task_callback
+    return await coroutine  # type: ignore
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_basehandler.py", line 153, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SHOHJAHON\ola\WAIFU-HUSBANDO-CATCHER-main\shivu\modules\leaderboard.py", line 123, in send_users_document
+    f.write(user_list)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>
+2024-01-17 17:00:31,125 - INFO - telegram.ext.Application - Application is stopping. This might take a moment.
+2024-01-17 17:00:31,126 - INFO - telegram.ext.Application - Application.stop() complete
+2024-01-17 17:00:31,599 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<Session.recv_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\session\session.py:297> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,600 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<Session.ping_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\session\session.py:276> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,600 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-15' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,601 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-16' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,601 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-17' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,601 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-18' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,602 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,602 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-20' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,602 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,603 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<Dispatcher.handler_worker() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py:204> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:00:31,603 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Client.updates_watchdog() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\client.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2024-01-17 17:06:09,988 - INFO - shivu.modules - Modules to load: ['broadcast', 'changetime', 'dev_cmd', 'eval', 'harem', 'inlinequery', 'leaderboard', 'ping', 'start', 'trade', 'upload']
+2024-01-17 17:06:10,860 - INFO - pyrogram.connection.connection - Connecting...
+2024-01-17 17:06:10,966 - INFO - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+2024-01-17 17:06:10,968 - INFO - pyrogram.session.session - NetworkTask started
+2024-01-17 17:06:11,587 - INFO - pyrogram.session.session - Session initialized: Layer 158
+2024-01-17 17:06:11,587 - INFO - pyrogram.session.session - Device: CPython 3.12.0 - Pyrogram 2.0.106
+2024-01-17 17:06:11,588 - INFO - pyrogram.session.session - System: Windows 10 (en)
+2024-01-17 17:06:11,589 - INFO - pyrogram.session.session - Session started
+2024-01-17 17:06:11,622 - INFO - pyrogram.session.session - PingTask started
+2024-01-17 17:06:12,061 - INFO - pyrogram.dispatcher - Started 8 HandlerTasks
+2024-01-17 17:06:12,064 - INFO - shivu - Bot started
+2024-01-17 17:06:12,529 - INFO - telegram.ext.Application - Application started
